@@ -1,0 +1,43 @@
+# Ignorar entornos virtuales
+venv/
+.venv/
+
+# Archivos de configuración del entorno
+.env
+*.env
+
+# Archivos temporales y de sistema
+__pycache__/
+*.py[cod]
+*.log
+*.tmp
+.DS_Store
+Thumbs.db
+
+# Archivos de salida y datos generados
+salidas/
+*.wav
+*.mp3
+*.flac
+*.zip
+
+# Archivos del modelo y cache
+.cache/
+.whisperx/
+huggingface/
+models/
+
+# Notebooks generados
+*.ipynb_checkpoints/
+
+# Archivos de ejecución remota
+*.ipynb
+
+@"
+venv*/
+__pycache__/
+*.pyc
+*.zip
+*.xlsx
+salidas/
+"@ > .gitignore
